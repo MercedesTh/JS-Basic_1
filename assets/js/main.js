@@ -173,17 +173,23 @@ console.log("=== Aufgabe 7 document-write_Lev1_1 ===")
 
 console.log("=== Aufgabe 8 String-Methods_Lev1_11 ===")
 
-// let x = "Hello ";
-// let y = "World<br>";
+let x = "Hello ";
+let y = "World<br>";
 
-// z = x + y
-// document.write(z);
+z = x + y
+document.write(z);
 
-// n = x + " " + y;
-// document.write(n);
+n = x + " " + y;
+document.write(n);
 
-// x += "World"
-// document.write(x);
+x += "World<br>"
+document.write(x);
+
+var meinString = "Ich bin Erster <br>";
+var meinString2 = "Ich komme auf Platz zwei";
+
+meinString += "Ich komme auf Platz zwei";
+document.write(meinString);
 
 
 console.log("=== Aufgabe 9 window-object-method_Lev1_4 ===")
@@ -213,4 +219,4 @@ console.log("=== Aufgabe 9 window-object-method_Lev1_4 ===")
 
 // alert(location.hostname);
 
-let person = prompt("Please enter your name", "Harry Potter");
+// let person = prompt("Please enter your name", "Harry Potter");
